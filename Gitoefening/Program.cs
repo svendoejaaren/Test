@@ -15,7 +15,7 @@ namespace Gitoefening
             Leerling3 leerling3 = new Leerling3();
 
             leerling1.GetData();
-            //Console.WriteLine(leerling1.PresentData()); 
+            Console.WriteLine(leerling1.PresentData()); 
 
             leerling2.GetData();
             Console.WriteLine(leerling2.PresentData());

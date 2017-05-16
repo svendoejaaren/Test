@@ -20,7 +20,7 @@ namespace Gitoefening
         
 
         //methode dat bovenstaande data terug geeft als string
-        public string ReturnData()
+        public string PresentData()
         {
             return oogkleur + merklaptop + reisstijd;
         }
