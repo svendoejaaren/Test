@@ -13,8 +13,18 @@ namespace Gitoefening
         int leeftijd;
 
         //methode om bovenstaande data te krijgen afmaken
+        public void GetData()
+        {
+            naam = "Fabian";
+            achternaam = "vanGellekom";
+            leeftijd = 20;
 
+        }
 
         //methode dat bovenstaande data terug geeft als string
+        public string PresentData()
+        {
+            return naam + achternaam + leeftijd;
+        }
     }
 }

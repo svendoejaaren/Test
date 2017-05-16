@@ -20,8 +20,8 @@ namespace Gitoefening
             leerling2.GetData();
             Console.WriteLine(leerling2.PresentData());
 
-            //leerling3.GetData();
-            //Console.WriteLine(leerling3.PresentData());
+            leerling3.GetData();
+            Console.WriteLine(leerling3.PresentData());
 
             Console.ReadKey();
         }
