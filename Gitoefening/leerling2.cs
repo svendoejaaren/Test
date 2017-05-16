@@ -13,7 +13,12 @@ namespace Gitoefening
         int lengte;
 
         //methode om bovenstaande data te krijgen afmaken
-
+        public void GetData()
+        {
+            straatnaam = "poof";
+            huisdier = "Giraffe";
+            lengte = 3;
+        }
 
         public string PresentData() {
 
